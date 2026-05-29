@@ -45,6 +45,7 @@ def train_model(df):
     return model
 
 def evaluate_model(model, df):
+    
     return {
         'accuracy': model.accuracy,
         'test_size': len(model.y_test),
