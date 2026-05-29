@@ -16,3 +16,6 @@ df = engineer_features(df)
 print("\nTask 3 : Exploratory analysis")
 stats = analyze_data(df)
 print("Found : ",len(stats)," insights")
+
+print("Task 4 : Visualization")
+plot_insights(df)
