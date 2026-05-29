@@ -5,7 +5,6 @@ import seaborn as sns
 def analyze_data(df):
 
     stats = {}
-
     print("\nBASIC STATISTICS")
     print(f"Total transactions: {len(df)}")
     print(f"Date range: {df['DateTime'].min()} to {df['DateTime'].max()}")
